@@ -11,10 +11,7 @@ app.use(express.json());
 app.use(express.static('public'));
 app.use(routes);
 
-// This will make it so that passport knows we have strategies defined
 
-// require('./services/passport');
-
-mongoose.connect(process.env.MONGODB_URI  || 'mongodb://localhost/workout', {  useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
+mongoose.connect(process.env.MONGODB_URI  || 'mongodb://<dbuser>:<dbpassword>@ds263808.mlab.com:63808/heroku_gr5k2sgk', {  useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
 
 app.listen(PORT);
