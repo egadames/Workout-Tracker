@@ -4,6 +4,8 @@
 
   * Github Repo Link: https://github.com/egadames/hw11
 
+  * Live Link: https://still-springs-69398.herokuapp.com/
+
 ## Description 
 
   * This app allows a user to view create and track daily workouts. They are able to log multiple exercises in a workout on a given day. 
@@ -53,4 +55,3 @@ s
 
     * Email: egadames990@gmail.com
   
-* The URL to the Github repository

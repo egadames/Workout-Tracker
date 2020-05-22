@@ -13,10 +13,10 @@ app.use(express.static('public'));
 
 mongoose.connect(process.env.MONGODB_URI  || 'mongodb://<heroku_pqmxfh2p>:<dbpassword>@ds137255.mlab.com:37255/heroku_pqmxfh2p', {  useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
 
-mongoose.connect("mongodb://localhost/workout", {
-  useNewUrlParser: true,
-  useFindAndModify: false
-});
+// mongoose.connect("mongodb://localhost/workout", {
+//   useNewUrlParser: true,
+//   useFindAndModify: false
+// });
 
 
 app.use(routes);
