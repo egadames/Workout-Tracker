@@ -47,6 +47,11 @@ s
 
   * please make a git pull request.
 
+## Screenshots
+
+![app screenshot 1](https://github.com/egadames/hw11/blob/master/assets/img/screenshot1.JPG)
+![app screenshot 2](https://github.com/egadames/hw11/blob/master/assets/img/screenshot2.JPG)
+
 ## Questions
 
   * If there are any questions, please contact via the information below:
