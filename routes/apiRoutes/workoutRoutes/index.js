@@ -6,7 +6,7 @@ router.route('/')
     .post(createWorkout)
     .get(getLastWorkout);
 
-router.route('/:workoutId')
+router.route('/:id')
     .put(addExercise);
 
 // /api/user/emails
